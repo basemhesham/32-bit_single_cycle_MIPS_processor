@@ -29,8 +29,8 @@ end
 //read asynchronously
 always @*
 begin
-   RD1 <= RegFile[A1] ;
-   RD2 <= RegFile[A2] ;
+   RD1 = RegFile[A1] ;
+   RD2 = RegFile[A2] ;
 end
 
 endmodule
